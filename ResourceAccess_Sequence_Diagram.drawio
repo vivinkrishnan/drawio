@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-12T17:44:25.248Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36" etag="a8Lw2t_u8bZ3fiszB5qX" version="15.9.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-12T17:53:54.349Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36" etag="r3XRkR3OY-p8gNKOEnlj" version="15.9.4" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="949" dy="617" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -28,8 +28,8 @@
         <mxCell id="C2U9HuYAeTP8XwX2KnLO-1" value="User" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="120" y="60" width="30" height="56" as="geometry" />
         </mxCell>
-        <mxCell id="ngCmAi4P7sYmXVYjvyKM-6" value="x= h(h(ID) || h(Uid) || SK)&lt;br&gt;Msg = Ex( attributes, SK , T1, h(ID))&lt;br&gt;Send {h(ID), Msg, T1, G}" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="20" y="196" width="210" height="50" as="geometry" />
+        <mxCell id="ngCmAi4P7sYmXVYjvyKM-6" value="x= h(h(ID) || h(Uid) || SK)&lt;br&gt;Msg = Ex( attributes, SK , T1, h(ID))&lt;br&gt;Send {h(ID), Msg, T1, G}&lt;br&gt;Embed into JWT" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="20" y="191" width="210" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ngCmAi4P7sYmXVYjvyKM-8" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
