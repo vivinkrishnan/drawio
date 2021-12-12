@@ -1,14 +1,14 @@
-<mxfile host="app.diagrams.net" modified="2021-12-12T16:42:54.553Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36" etag="i9IKYZ2KdY9Pm-lcZ0bX" version="15.9.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-12T16:50:38.485Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36" etag="wLM0T_uNqlI0EANwGzOb" version="15.9.4" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="1799" dy="617" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="3nuBFxr9cyL0pnOWT2aG-1" value=":Device" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
-          <mxGeometry x="179" y="80" width="100" height="800" as="geometry" />
+          <mxGeometry x="179" y="80" width="100" height="840" as="geometry" />
         </mxCell>
         <mxCell id="3nuBFxr9cyL0pnOWT2aG-2" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="3nuBFxr9cyL0pnOWT2aG-1" vertex="1">
-          <mxGeometry x="45" y="70" width="10" height="730" as="geometry" />
+          <mxGeometry x="45" y="70" width="10" height="770" as="geometry" />
         </mxCell>
         <mxCell id="3nuBFxr9cyL0pnOWT2aG-3" value="Register" style="verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;shadow=0;strokeWidth=1;" parent="3nuBFxr9cyL0pnOWT2aG-1" target="3nuBFxr9cyL0pnOWT2aG-2" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -33,11 +33,14 @@
         <mxCell id="JjU80H_L5WIadc3WcqGo-3" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="3nuBFxr9cyL0pnOWT2aG-1" vertex="1">
           <mxGeometry x="40" y="622" width="10" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="ngCmAi4P7sYmXVYjvyKM-5" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="3nuBFxr9cyL0pnOWT2aG-1">
+          <mxGeometry x="40" y="743" width="10" height="80" as="geometry" />
+        </mxCell>
         <mxCell id="3nuBFxr9cyL0pnOWT2aG-5" value=":Server" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
-          <mxGeometry x="519" y="80" width="100" height="790" as="geometry" />
+          <mxGeometry x="519" y="80" width="100" height="840" as="geometry" />
         </mxCell>
         <mxCell id="3nuBFxr9cyL0pnOWT2aG-6" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="3nuBFxr9cyL0pnOWT2aG-5" vertex="1">
-          <mxGeometry x="45" y="70" width="10" height="610" as="geometry" />
+          <mxGeometry x="45" y="70" width="10" height="770" as="geometry" />
         </mxCell>
         <mxCell id="C2U9HuYAeTP8XwX2KnLO-3" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="3nuBFxr9cyL0pnOWT2aG-5" vertex="1">
           <mxGeometry x="50" y="150" width="10" height="83" as="geometry" />
@@ -97,6 +100,15 @@
         </mxCell>
         <mxCell id="JjU80H_L5WIadc3WcqGo-4" value="Calculate N2 = K&amp;nbsp;&lt;span style=&quot;font-size: 14px ; text-align: left ; background-color: rgb(255 , 255 , 255)&quot;&gt;⊕&amp;nbsp;&lt;/span&gt;G&amp;nbsp;&lt;span style=&quot;font-size: 14px ; text-align: left ; background-color: rgb(255 , 255 , 255)&quot;&gt;⊕&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;text-align: left ; background-color: rgb(255 , 255 , 255)&quot;&gt;N1&lt;br&gt;&lt;/span&gt;Compare N&#39; to N. If not reject.&lt;br&gt;Calculate SK = h( D || G || K)&lt;br&gt;Hold SK in-memory&lt;br&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="20" y="712" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ngCmAi4P7sYmXVYjvyKM-4" value="Resource_Access" style="verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;shadow=0;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="120" y="820" as="sourcePoint" />
+            <mxPoint x="220" y="820" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ngCmAi4P7sYmXVYjvyKM-6" value="x= h(h(ID) || h(Uid) || SK)&lt;br&gt;Msg = Ex(" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="15" y="835" width="150" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
