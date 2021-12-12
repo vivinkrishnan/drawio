@@ -1,14 +1,14 @@
-<mxfile host="app.diagrams.net" modified="2021-12-12T16:15:45.810Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36" etag="OKKm-1jOt8aRN7ZI6Wil" version="15.9.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-12T17:27:36.828Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36" etag="tbkjw9sBjtzpKgFTUNyr" version="15.9.4" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="1799" dy="617" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="3nuBFxr9cyL0pnOWT2aG-1" value=":Device" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
-          <mxGeometry x="179" y="80" width="100" height="620" as="geometry" />
+          <mxGeometry x="179" y="80" width="100" height="800" as="geometry" />
         </mxCell>
         <mxCell id="3nuBFxr9cyL0pnOWT2aG-2" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="3nuBFxr9cyL0pnOWT2aG-1" vertex="1">
-          <mxGeometry x="45" y="70" width="10" height="410" as="geometry" />
+          <mxGeometry x="45" y="70" width="10" height="730" as="geometry" />
         </mxCell>
         <mxCell id="3nuBFxr9cyL0pnOWT2aG-3" value="Register" style="verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;shadow=0;strokeWidth=1;" parent="3nuBFxr9cyL0pnOWT2aG-1" target="3nuBFxr9cyL0pnOWT2aG-2" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -31,16 +31,16 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="3nuBFxr9cyL0pnOWT2aG-5" value=":Server" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
-          <mxGeometry x="519" y="80" width="100" height="600" as="geometry" />
+          <mxGeometry x="519" y="80" width="100" height="690" as="geometry" />
         </mxCell>
         <mxCell id="3nuBFxr9cyL0pnOWT2aG-6" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="3nuBFxr9cyL0pnOWT2aG-5" vertex="1">
-          <mxGeometry x="45" y="80" width="10" height="520" as="geometry" />
+          <mxGeometry x="45" y="80" width="10" height="610" as="geometry" />
         </mxCell>
         <mxCell id="C2U9HuYAeTP8XwX2KnLO-3" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="3nuBFxr9cyL0pnOWT2aG-5">
           <mxGeometry x="50" y="147" width="10" height="83" as="geometry" />
         </mxCell>
         <mxCell id="C2U9HuYAeTP8XwX2KnLO-14" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontFamily=Helvetica;fontSize=12;fontColor=#000000;" vertex="1" parent="3nuBFxr9cyL0pnOWT2aG-5">
-          <mxGeometry x="50" y="440" width="10" height="80" as="geometry" />
+          <mxGeometry x="50" y="440" width="10" height="180" as="geometry" />
         </mxCell>
         <mxCell id="3nuBFxr9cyL0pnOWT2aG-8" value="h(ID), MPW) securely" style="verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;shadow=0;strokeWidth=1;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -80,8 +80,8 @@
         <mxCell id="C2U9HuYAeTP8XwX2KnLO-13" value="{h(ID), Enc_Attributes, D}" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontFamily=Helvetica;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="328" y="490" width="150" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="C2U9HuYAeTP8XwX2KnLO-15" value="Look up h(Uid) using h(ID)&lt;br&gt;Extract N1 from D&lt;br&gt;Validate h(ID) and h(MPW) against storage&lt;br&gt;x&#39;= h(h(ID)|| h(Uid) || N1)&lt;br&gt;Decrypt (Enc_attributes)&lt;br&gt;G = h( h(ID) || h(Uid)&lt;br&gt;K= G&amp;nbsp;&lt;span style=&quot;font-size: 14px ; text-align: left ; background-color: rgb(255 , 255 , 255)&quot;&gt;⊕ &lt;/span&gt;&lt;span style=&quot;text-align: left ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;N1&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 14px ; text-align: left ; background-color: rgb(255 , 255 , 255)&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 14px ; text-align: left ; background-color: rgb(255 , 255 , 255)&quot;&gt;⊕ &lt;/span&gt;&lt;span style=&quot;text-align: left ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;N2&lt;/font&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontFamily=Helvetica;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="588" y="510" width="240" height="100" as="geometry" />
+        <mxCell id="C2U9HuYAeTP8XwX2KnLO-15" value="Look up h(Uid) using h(ID)&lt;br&gt;Extract N1 from D&lt;br&gt;Validate h(ID) and h(MPW) against storage&lt;br&gt;x&#39;= h(h(ID)|| h(Uid) || N1)&lt;br&gt;Decrypt (Enc_attributes)&lt;br&gt;G = h( h(ID) || h(Uid)&lt;br&gt;K= G&amp;nbsp;&lt;span style=&quot;font-size: 14px ; text-align: left ; background-color: rgb(255 , 255 , 255)&quot;&gt;⊕ &lt;/span&gt;&lt;span style=&quot;text-align: left ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;N1&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 14px ; text-align: left ; background-color: rgb(255 , 255 , 255)&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 14px ; text-align: left ; background-color: rgb(255 , 255 , 255)&quot;&gt;⊕ &lt;/span&gt;&lt;span style=&quot;text-align: left ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;N2&lt;br&gt;L = h( DID || N1 || G)&lt;br&gt;M = h( G || N1)&lt;br&gt;N = h( D || M || N2)&lt;br&gt;SK = h( D || G || K)&lt;br&gt;Send EL(N,K)&lt;br&gt;&lt;br&gt;&lt;/font&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontFamily=Helvetica;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="588" y="520" width="240" height="190" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
