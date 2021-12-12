@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-12T17:34:00.560Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36" etag="Q4Qn-KaGv3VN8bbB9dLA" version="15.9.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-12T17:52:21.715Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36" etag="T2QlwBqYX69n-GR4sDEe" version="15.9.4" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="1799" dy="617" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -68,8 +68,8 @@
         <mxCell id="C2U9HuYAeTP8XwX2KnLO-1" value="User" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="130" y="60" width="30" height="56" as="geometry" />
         </mxCell>
-        <mxCell id="C2U9HuYAeTP8XwX2KnLO-5" value="ID,PWD&lt;br&gt;a=h(PWD), b = G0a mod p,&lt;br&gt;MPW = h( ID || b)&amp;nbsp;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="43" y="167" width="160" height="50" as="geometry" />
+        <mxCell id="C2U9HuYAeTP8XwX2KnLO-5" value="ID,PWD&lt;br&gt;a=h(PWD), b = G0a mod p,&lt;br&gt;MPW = h( ID || b)&amp;nbsp;&lt;br&gt;Embed into JWT" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="43" y="162" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="C2U9HuYAeTP8XwX2KnLO-7" value="Y =&amp;nbsp; h(ID)&lt;span id=&quot;docs-internal-guid-e49e2a0b-7fff-2932-c1dd-dcc5686d5943&quot;&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255) ; vertical-align: baseline&quot;&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;⊕&lt;/font&gt;&lt;/span&gt;&lt;/span&gt;salt &lt;br&gt;x= h( h(ID) || salt)&lt;br&gt;Generate Uid&lt;br&gt;Msg = Ex ( h(h(Uid), h(h(Uid)||h(ID) || salt))&lt;br&gt;Store h(Uid), h( ID), h(MPW) securely&lt;br&gt;&amp;nbsp;Send ( {Y, Msg} )" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="588" y="225" width="240" height="90" as="geometry" />
@@ -77,8 +77,8 @@
         <mxCell id="C2U9HuYAeTP8XwX2KnLO-8" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;salt = Y&lt;/span&gt;&lt;span style=&quot;font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;⊕ &lt;/span&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;h(ID)&lt;/span&gt;&lt;/div&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;div style=&quot;text-align: left&quot;&gt;x = h( h(ID) || salt)&lt;/div&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;&lt;div style=&quot;text-align: left&quot;&gt;Dmsg = h(&lt;span&gt;(h(Uid), h(h(Uid)||h(ID) || salt)&lt;/span&gt;&lt;/div&gt;&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;div style=&quot;text-align: left&quot;&gt;Store h(Uid) securely&lt;/div&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="-10" y="310" width="230" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="C2U9HuYAeTP8XwX2KnLO-10" value="D = {h(ID) || ((h(ID)|| h(MPW)) || N1}&lt;br&gt;x= h(h(ID)|| h(Uid) || N1)&lt;br&gt;Enc_Attributes = Ex( attributes)&lt;br&gt;Send {h(ID), Enc_Attributes, D}" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontFamily=Helvetica;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry y="440" width="210" height="60" as="geometry" />
+        <mxCell id="C2U9HuYAeTP8XwX2KnLO-10" value="D = {h(ID) || ((h(ID)|| h(MPW)) || N1}&lt;br&gt;x= h(h(ID)|| h(Uid) || N1)&lt;br&gt;Enc_Attributes = Ex( attributes)&lt;br&gt;Send {h(ID), Enc_Attributes, D}&lt;br&gt;Embed into JWT" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontFamily=Helvetica;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry y="430" width="210" height="80" as="geometry" />
         </mxCell>
         <mxCell id="C2U9HuYAeTP8XwX2KnLO-12" value="" style="endArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=#000000;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
