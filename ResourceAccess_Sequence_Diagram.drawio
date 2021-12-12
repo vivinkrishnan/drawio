@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-12T16:58:45.291Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36" etag="AbWHkc2EUoPsJt09VSu_" version="15.9.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-12T17:01:49.743Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36" etag="oahY-pstJPvQwvKUqQ-T" version="15.9.4" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="1799" dy="617" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -37,16 +37,19 @@
           <mxGeometry x="40" y="743" width="10" height="80" as="geometry" />
         </mxCell>
         <mxCell id="3nuBFxr9cyL0pnOWT2aG-5" value=":Server" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
-          <mxGeometry x="519" y="80" width="100" height="840" as="geometry" />
+          <mxGeometry x="519" y="80" width="100" height="910" as="geometry" />
         </mxCell>
         <mxCell id="3nuBFxr9cyL0pnOWT2aG-6" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="3nuBFxr9cyL0pnOWT2aG-5" vertex="1">
-          <mxGeometry x="45" y="70" width="10" height="770" as="geometry" />
+          <mxGeometry x="45" y="70" width="10" height="840" as="geometry" />
         </mxCell>
         <mxCell id="C2U9HuYAeTP8XwX2KnLO-3" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="3nuBFxr9cyL0pnOWT2aG-5" vertex="1">
           <mxGeometry x="50" y="150" width="10" height="83" as="geometry" />
         </mxCell>
         <mxCell id="C2U9HuYAeTP8XwX2KnLO-14" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontFamily=Helvetica;fontSize=12;fontColor=#000000;" parent="3nuBFxr9cyL0pnOWT2aG-5" vertex="1">
           <mxGeometry x="50" y="440" width="10" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="ngCmAi4P7sYmXVYjvyKM-10" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="3nuBFxr9cyL0pnOWT2aG-5">
+          <mxGeometry x="50" y="820" width="10" height="80" as="geometry" />
         </mxCell>
         <mxCell id="3nuBFxr9cyL0pnOWT2aG-8" value="h(ID), MPW) securely" style="verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;shadow=0;strokeWidth=1;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -118,6 +121,9 @@
         </mxCell>
         <mxCell id="ngCmAi4P7sYmXVYjvyKM-9" value="{h(ID), Msg,T1,G}" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="348" y="880" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ngCmAi4P7sYmXVYjvyKM-11" value="Look up h(Uid), SK&lt;br&gt;Check validity of session&lt;br&gt;Calculate x&#39;&lt;br&gt;Decrypt Msg" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="585" y="890" width="150" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
