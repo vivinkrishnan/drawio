@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-13T05:39:15.376Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36" etag="C2xbK0Isw0dva3HymXkl" version="15.9.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-13T05:50:36.446Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36" etag="Z9ot4wrP_BxS8dalkdtR" version="15.9.4" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="1799" dy="617" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -66,7 +66,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="C2U9HuYAeTP8XwX2KnLO-1" value="User" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
-          <mxGeometry x="130" y="60" width="30" height="56" as="geometry" />
+          <mxGeometry x="140" y="80" width="20" height="36" as="geometry" />
         </mxCell>
         <mxCell id="C2U9HuYAeTP8XwX2KnLO-5" value="ID,PWD&lt;br&gt;a=h(PWD), b = G0a mod p,&lt;br&gt;MPW = h( ID || b)&amp;nbsp;&lt;br&gt;Generate key-pair.&lt;br&gt;Embed into JWT. Sign with private key" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry y="152" width="220" height="80" as="geometry" />
