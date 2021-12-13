@@ -1,10 +1,10 @@
-<mxfile host="app.diagrams.net" modified="2021-12-12T17:53:54.349Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36" etag="r3XRkR3OY-p8gNKOEnlj" version="15.9.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-13T19:57:49.822Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36" etag="1982Wl6ZpzKPdCR5iWfi" version="15.9.4" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="949" dy="617" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="3nuBFxr9cyL0pnOWT2aG-1" value=":Device" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
+        <mxCell id="3nuBFxr9cyL0pnOWT2aG-1" value=":Mobile Device" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
           <mxGeometry x="179" y="80" width="100" height="440" as="geometry" />
         </mxCell>
         <mxCell id="3nuBFxr9cyL0pnOWT2aG-5" value=":Server" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
@@ -13,53 +13,53 @@
         <mxCell id="3nuBFxr9cyL0pnOWT2aG-6" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="3nuBFxr9cyL0pnOWT2aG-5" vertex="1">
           <mxGeometry x="45" y="70" width="10" height="330" as="geometry" />
         </mxCell>
-        <mxCell id="ngCmAi4P7sYmXVYjvyKM-15" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.972;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="3nuBFxr9cyL0pnOWT2aG-5">
+        <mxCell id="ngCmAi4P7sYmXVYjvyKM-15" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.972;exitDx=0;exitDy=0;exitPerimeter=0;" parent="3nuBFxr9cyL0pnOWT2aG-5" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="45" y="339.9999999999999" as="sourcePoint" />
             <mxPoint x="-284" y="340.4" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ngCmAi4P7sYmXVYjvyKM-27" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="3nuBFxr9cyL0pnOWT2aG-5">
+        <mxCell id="ngCmAi4P7sYmXVYjvyKM-27" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="3nuBFxr9cyL0pnOWT2aG-5" vertex="1">
           <mxGeometry x="50" y="280" width="10" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ngCmAi4P7sYmXVYjvyKM-28" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="3nuBFxr9cyL0pnOWT2aG-5">
+        <mxCell id="ngCmAi4P7sYmXVYjvyKM-28" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="3nuBFxr9cyL0pnOWT2aG-5" vertex="1">
           <mxGeometry x="50" y="190" width="10" height="60" as="geometry" />
         </mxCell>
         <mxCell id="C2U9HuYAeTP8XwX2KnLO-1" value="User" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
-          <mxGeometry x="120" y="60" width="30" height="56" as="geometry" />
+          <mxGeometry x="130" y="80" width="20" height="36" as="geometry" />
         </mxCell>
-        <mxCell id="ngCmAi4P7sYmXVYjvyKM-6" value="x= h(h(ID) || h(Uid) || SK)&lt;br&gt;Msg = Ex( attributes, SK , T1, h(ID))&lt;br&gt;Send {h(ID), Msg, T1, G}&lt;br&gt;Embed into JWT" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="ngCmAi4P7sYmXVYjvyKM-6" value="x= h(h(ID) || h(Uid) || SK)&lt;br&gt;Msg = Ex( attributes, SK , T1, h(ID))&lt;br&gt;Send {h(ID), Msg, T1, G}&lt;br&gt;Embed into JWT" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="20" y="191" width="210" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ngCmAi4P7sYmXVYjvyKM-8" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="ngCmAi4P7sYmXVYjvyKM-8" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="234" y="261" as="sourcePoint" />
             <mxPoint x="562.5" y="261" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ngCmAi4P7sYmXVYjvyKM-9" value="{h(ID), Msg,T1,G}" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="ngCmAi4P7sYmXVYjvyKM-9" value="{h(ID), Msg,T1,G}" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="340" y="242" width="110" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="ngCmAi4P7sYmXVYjvyKM-11" value="Look up h(Uid), SK&lt;br&gt;Check validity of session.If invalid reject.&lt;br&gt;Calculate x&#39;&lt;br&gt;Decrypt Msg" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="ngCmAi4P7sYmXVYjvyKM-11" value="Look up h(Uid), SK&lt;br&gt;Check validity of session.If invalid reject.&lt;br&gt;Calculate x&#39;&lt;br&gt;Decrypt Msg" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="608" y="270" width="230" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ngCmAi4P7sYmXVYjvyKM-14" value="Validate variance of attributes.&lt;br&gt;Challenge if varying beyond range&lt;br&gt;If not, allow access to Resource" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="ngCmAi4P7sYmXVYjvyKM-14" value="Validate variance of attributes.&lt;br&gt;Challenge if varying beyond range&lt;br&gt;If not, allow access to Resource" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="608" y="360" width="200" height="50" as="geometry" />
         </mxCell>
         <mxCell id="3nuBFxr9cyL0pnOWT2aG-2" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
           <mxGeometry x="224" y="148" width="10" height="332" as="geometry" />
         </mxCell>
-        <mxCell id="ngCmAi4P7sYmXVYjvyKM-4" value="Resource_Access" style="verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;shadow=0;strokeWidth=1;" edge="1" parent="1">
+        <mxCell id="ngCmAi4P7sYmXVYjvyKM-4" value="Resource_Access" style="verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;shadow=0;strokeWidth=1;" parent="1" edge="1">
           <mxGeometry y="10" relative="1" as="geometry">
             <mxPoint x="120" y="180" as="sourcePoint" />
             <mxPoint x="220" y="180" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ngCmAi4P7sYmXVYjvyKM-25" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+        <mxCell id="ngCmAi4P7sYmXVYjvyKM-25" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="1" vertex="1">
           <mxGeometry x="220" y="181" width="10" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="ngCmAi4P7sYmXVYjvyKM-29" value="Resource" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="ngCmAi4P7sYmXVYjvyKM-29" value="Resource" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="360" y="400" width="70" height="20" as="geometry" />
         </mxCell>
       </root>
