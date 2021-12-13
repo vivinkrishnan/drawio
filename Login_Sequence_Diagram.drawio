@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-13T19:13:34.167Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36" etag="dcmiVbhwD_yrLOeyR8B9" version="15.9.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-13T19:14:35.360Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36" etag="f88X6urA2Rffg3jYJt9m" version="15.9.4" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="949" dy="571" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -95,7 +95,7 @@
         <mxCell id="orVg1k1KsBT4zMQbl33w-1" value="G = h( h(ID) || h(Uid))&lt;br&gt;K= G&amp;nbsp;&lt;span style=&quot;font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;⊕&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;N1&lt;/span&gt;&lt;span style=&quot;font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;⊕&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;N2&lt;br&gt;L = h( DID || N1 || G)&lt;br&gt;M = h( G || N1)&lt;br&gt;N = h( D || M || N2)&lt;br&gt;SK = h( D || G || K)&lt;br&gt;Send EL(N,K)&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="600" y="670" width="130" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="orVg1k1KsBT4zMQbl33w-2" value="x&#39;= h(h(ID)|| h(Uid) || N1)&lt;br&gt;Decrypt (Enc_attributes)&lt;br&gt;Validate variance of attributes." style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+        <mxCell id="orVg1k1KsBT4zMQbl33w-2" value="x&#39;= h(h(ID)|| h(Uid))&lt;br&gt;Decrypt (E)&lt;br&gt;Validate variance of attributes." style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="600" y="590" width="180" height="50" as="geometry" />
         </mxCell>
         <mxCell id="orVg1k1KsBT4zMQbl33w-5" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
