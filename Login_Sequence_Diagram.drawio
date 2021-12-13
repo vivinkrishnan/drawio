@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-12-13T19:17:35.186Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36" etag="jCIFk1KxbIqT5z3aJfRF" version="15.9.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-13T19:43:49.344Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36" etag="JpkGLGfds79c_ppBVlTn" version="15.9.4" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
-    <mxGraphModel dx="949" dy="571" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="949" dy="617" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -92,8 +92,8 @@
         <mxCell id="C2U9HuYAeTP8XwX2KnLO-15" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;Check if JWS public key matches stored public key. If not reject.&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;Validate h(ID) and h(MPW) against storage&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontFamily=Helvetica;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="600" y="530" width="350" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="orVg1k1KsBT4zMQbl33w-1" value="G = h( h(ID) || h(Uid))&lt;br&gt;K= G&amp;nbsp;&lt;span style=&quot;font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;⊕&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;N1&lt;/span&gt;&lt;span style=&quot;font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;⊕&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;N2&lt;br&gt;L = h( DID || N1 || G)&lt;br&gt;M = h( G || N1)&lt;br&gt;N = h( D || M || N2)&lt;br&gt;SK = h( D || G || K)&lt;br&gt;Send EL(N,K)&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="600" y="670" width="130" height="100" as="geometry" />
+        <mxCell id="orVg1k1KsBT4zMQbl33w-1" value="G = h( h(ID) || h(Uid))&lt;br&gt;K= G&amp;nbsp;&lt;span style=&quot;font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;⊕&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;N1&lt;/span&gt;&lt;span style=&quot;font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;⊕&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;N2&lt;br&gt;M = h( G || N1)&lt;br&gt;N = h( M || N2)&lt;br&gt;SK = h( D || G || K)&lt;br&gt;Send Em(N,K,t2)&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="600" y="675" width="130" height="90" as="geometry" />
         </mxCell>
         <mxCell id="orVg1k1KsBT4zMQbl33w-2" value="Look up h(Uid) using h(ID)&lt;br&gt;x&#39;= h(h(ID)|| h(Uid))&lt;br&gt;Decrypt (E), extract N1 from D&lt;br&gt;Validate variance of attributes." style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="600" y="585" width="180" height="60" as="geometry" />
@@ -104,8 +104,8 @@
             <mxPoint x="234.5" y="778" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="orVg1k1KsBT4zMQbl33w-6" value="EL{N,K}" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="373" y="760" width="60" height="20" as="geometry" />
+        <mxCell id="orVg1k1KsBT4zMQbl33w-6" value="Em{N,K,t2}" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="368" y="760" width="70" height="20" as="geometry" />
         </mxCell>
         <mxCell id="orVg1k1KsBT4zMQbl33w-7" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;Calculate N2 = K&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;⊕&amp;nbsp;&lt;/span&gt;&lt;span&gt;G&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;⊕&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;N1&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;Compare N&#39; to N. If not reject.&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;Calculate SK = h( D || G || K)&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;Hold SK in-memory&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="38" y="780" width="170" height="60" as="geometry" />
